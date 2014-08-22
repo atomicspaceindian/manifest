@@ -72,11 +72,6 @@ $ cd WORKSPACE
 $ ./rom-build.sh DEVICE
 ```
 
-## Submitting Patches ##
-
-We're open source and patches are always welcome!
-
-You can see the status of all patches at [Gerrit Code Review](https://gerrit.paranoidandroid.co/).
 
 ### Following the standard workflow ###
 

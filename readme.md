@@ -29,7 +29,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b kitkat
+$ repo init -u https://github.com/VentureROM/manifest -b kitkat
 ```
 
 ### Downloading the source tree ###
@@ -53,7 +53,7 @@ a large change that spans across multiple projects.
 ```bash
 # Specify one or more projects by either name or path
 
-# For example, enter AOSPA/android_frameworks_base or
+# For example, enter VentureROM/android_frameworks_base or
 # frameworks/base to sync the frameworks/base repository
 
 $ repo sync PROJECT
@@ -80,8 +80,8 @@ $ ./rom-build.sh DEVICE
 $ cd WORKSPACE
 
 # Create a new branch on the specific project you are going to work on
-# For example, `repo start fix-clock AOSPA/android_frameworks_base`
-$ repo start BRANCH AOSPA/PROJECT
+# For example, `repo start fix-clock VentureROM/android_frameworks_base`
+$ repo start BRANCH VentureROM/PROJECT
 
 # Go inside the project you are working on
 $ cd PROJECT
@@ -95,7 +95,7 @@ $ git commit -a
 
 # Upload your changes
 $ cd WORKSPACE
-$ repo upload AOSPA/PROJECT
+$ repo upload VentureROM/PROJECT
 ```
 
 ### Making additional changes ###

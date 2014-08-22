@@ -1,9 +1,4 @@
-# ParanoidAndroid #
-
-## Working on translations ##
-
-We're using [Crowdin](https://crowdin.net/project/aospa-framework) to accept translations so you
-should join it if you are interested in working on translating a part of the project.
+# VentureROM #
 
 ## Grabbing the source ##
 

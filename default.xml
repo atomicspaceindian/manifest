@@ -11,6 +11,9 @@
   
   <remote name="legacy"
            fetch="https://github.com/TheMuppets" />
+           
+  <remote  name="legacy-blobs"
+           fetch="https://github.com/ThankYouLuigi" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario" />
@@ -277,6 +280,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="VentureROM/android_frameworks_opt_telephony" remote="github" revision="kitkat" />
+  <project path="frameworks/opt/telephony-msim" name="VentureROM-Legacy/android_frameworks_opt_telephony-msim" remote="github" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -292,7 +296,7 @@
   <project path="hardware/libhardware" name="VentureROM/android_hardware_libhardware" remote="github" revision="kitkat" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-    <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-11.0" />
@@ -307,6 +311,8 @@
   <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Superuser" name="Cyanogenmod/Superuser" remote="github" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Cyanogenmod/Widgets" remote="github" revision="cm-11.0" />
   <project path="libcore" name="VentureROM/android_libcore" remote="github" revision="kitkat" />
@@ -431,6 +437,7 @@
   <project path="system/extras" name="VentureROM/android_system_extras" remote="github" revision="kitkat"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />

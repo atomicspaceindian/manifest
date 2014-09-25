@@ -444,7 +444,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="system/vold" name="VentureROM-Legacy/android_system_vold" remote="github" revision="kitkat" groups="pdk" />
   
   <project path="vendor/venture" name="VentureROM/android_vendor_venture" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />

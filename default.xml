@@ -31,9 +31,9 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="VentureROM/manifest" remote="github" revision="kitkat" />
+  <project path="manifest" name="VentureROM/manifest" remote="github" revision="EXP" />
 
-  <project path="build" name="VentureROM/android_build" remote="github" revision="kitkat" >
+  <project path="build" name="VentureROM/android_build" remote="github" revision="EXP" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -452,7 +452,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
-  <project path="vendor/venture" name="VentureROM/android_vendor_venture" remote="github" revision="kitkat" >
+  <project path="vendor/venture" name="VentureROM/android_vendor_venture" remote="github" revision="EXP" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 

@@ -1,6 +1,6 @@
 # VentureROM #
 
-## Grabbing the source ##
+## Background ##
 
 [Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
 simplifies using [Git](https://www.atlassian.com/git/tutorials) in the context of the Android source.
@@ -71,6 +71,34 @@ a large change that spans across multiple projects.
 # frameworks/base to sync the frameworks/base repository
 
 $ repo sync PROJECT
+```
+
+#### Using CCACHE ####
+CCACHE speeds up builds by files from the previous build. It is recommended to clear CCACHE when building for a public release
+```bash
+# Lets initialize it first
+
+# Go to the directory in which you are building
+$ cd ~/android
+
+# Lets give the command for CCACHE
+$ prebuilts/misc/linux-x86/ccache/ccache -M 50G
+# This will allot 50GB to CCACHE. change the '50' to however much you'd want to give. At least 25 is recommended.
+
+# Now lets tell our computer where CCACHE is so it can use it
+
+# CD into your Home folder
+$ cd ~/
+
+# Then lets tell it
+$ sudo nano .bashrc
+
+# Add this line to the very end
+export USE_CCACHE=1
+# It should right after "export PATH=~/bin:$PATH" which you added earlier
+
+# Now lets refresh bashrc. You can do this by logging out and logging back in, but who likes to do that?
+$ source .bashrc
 ```
 
 ## Building ##

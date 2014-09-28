@@ -50,7 +50,7 @@ Then re-run the repo initialization.
 
 This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
 first run, it is expected to take a while as it will download all the required Android source files
-and their change histories. Afterwatrds, only changed files.
+and their change histories. Afterwards, only changed files.
 
 ```bash
 # Let Repo take care of all the hard work

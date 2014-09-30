@@ -1,10 +1,5 @@
 # VentureROM #
 
-## Background ##
-
-[Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
-simplifies using [Git](https://www.atlassian.com/git/tutorials) in the context of the Android source.
-
 ## Setting up the Build Environment ##
 Many different Linux distributions exist, and here we will outline a few of the popular ones
 The suggested [guide] (http://forum.xda-developers.com/showthread.php?t=2464683) for [Ubuntu] (http://www.ubuntu.com/) works on versions 13.10 and above.

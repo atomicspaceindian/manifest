@@ -291,7 +291,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="external/koush/Superuser" name="Cyanogenmod/Superuser" remote="github" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Cyanogenmod/Widgets" remote="github" revision="cm-11.0" />
-  <project path="libcore" name="VentureROM/android_libcore" remote="github" revision="kitkat" />
+  <project path="libcore" name="AOSPA/android_libcore" remote="github" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />

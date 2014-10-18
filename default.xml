@@ -410,7 +410,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="AOSPA/android_system_core" remote="github" revision="kitkat" />
-  <project path="system/extras" name="VentureROM/android_system_extras" remote="github" revision="kitkat"/>
+  <project path="system/extras" name="AOSPA/android_system_extras" remote="github" revision="kitkat"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />

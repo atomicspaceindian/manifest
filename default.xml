@@ -344,7 +344,7 @@
   <project path="packages/providers/DownloadProvider" name="AOSPA/android_packages_providers_DownloadProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="AOSPA/android_packages_providers_MediaProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="VentureROM/android_packages_providers_TelephonyProvider" remote="github" revision="kitkat" />
+  <project path="packages/providers/TelephonyProvider" name="AOSPA/android_packages_providers_TelephonyProvider" remote="github" revision="kitkat" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
